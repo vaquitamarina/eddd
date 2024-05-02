@@ -15,6 +15,12 @@
 
 using namespace std;
 
+void ps() {
+  cout << "Presione una tecla para continuar...";
+  cin.get();
+  cin.get();
+}
+
 int main(int argc, char *argv[]) {
   auto screen = ftxui::ScreenInteractive::Fullscreen();
 
@@ -55,12 +61,13 @@ int main(int argc, char *argv[]) {
       cout << "Ingrese la nota 2: ";
       cin >> n2;
       alumnos.add(code, name, n1, n2);
+      ps();
       system(CLEAR);
       screen.Loop(menu);
       break;
     case 1:
       alumnos.display();
-      cin.get();
+      ps();
       system(CLEAR);
       screen.Loop(menu);
       break;
@@ -70,6 +77,7 @@ int main(int argc, char *argv[]) {
       int pos = alumnos.search(code);
       if (pos >= 0) {
         alumnos.display(pos);
+        ps();
       } else {
         cout << "El codigo no existe" << endl;
       }
@@ -81,6 +89,7 @@ int main(int argc, char *argv[]) {
       cout << "Ingrese el codigo del alumno: ";
       cin >> code;
       alumnos.remove(code);
+      ps();
       system(CLEAR);
       screen.Loop(menu);
       break;

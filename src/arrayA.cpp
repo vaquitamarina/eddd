@@ -132,7 +132,6 @@ void ArrayA::display() {
     cout << "Promedio: " << array[i].prom << endl;
     cout << "------------------------------------" << endl;
   }
-  cin.get();
 }
 
 void ArrayA::display(int pos) {
@@ -142,5 +141,4 @@ void ArrayA::display(int pos) {
   cout << "Nota 2: " << array[pos].n2 << endl;
   cout << "Promedio: " << array[pos].prom << endl;
   cout << "------------------------------------" << endl;
-  cin.get();
 }
