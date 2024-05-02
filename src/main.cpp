@@ -30,8 +30,8 @@ int main(int argc, char *argv[]) {
   int n1, n2;
 
   vector<string> options = {
-      "1. Registrar alumno", "2. Mostrar alumnos", "3. Buscar alumno",
-      "4. Eliminar alumno",  "5. Salir",
+      "1. Registrar alumno", "2. Mostrar alumnos", "3. Buscar alumno","4. Modificar alumno",
+      "5. Eliminar alumno",  "6. Salir",
   };
 
   ftxui::MenuOption option;
@@ -77,15 +77,23 @@ int main(int argc, char *argv[]) {
       int pos = alumnos.search(code);
       if (pos >= 0) {
         alumnos.display(pos);
-        ps();
       } else {
         cout << "El codigo no existe" << endl;
       }
+      ps();
       system(CLEAR);
       screen.Loop(menu);
       break;
     }
-    case 3:
+    case 3: 
+      cout << "Ingrese el codigo del alumno: ";
+      cin >> code;
+      alumnos.modify(code);
+      ps();
+      system(CLEAR);
+      screen.Loop(menu);
+      break;
+    case 4:
       cout << "Ingrese el codigo del alumno: ";
       cin >> code;
       alumnos.remove(code);
@@ -93,13 +101,13 @@ int main(int argc, char *argv[]) {
       system(CLEAR);
       screen.Loop(menu);
       break;
-    case 4:
+    case 5:
       screen.ExitLoopClosure();
       break;
     default:
       cout << "Opcion invalida" << endl;
       break;
     }
-  } while (op != 4);
+  } while (op != 5);
   return 0;
 }

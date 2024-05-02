@@ -60,6 +60,7 @@ void ArrayA::modify(char code[]) {
     cout << "2. Nota 1" << endl;
     cout << "3. Nota 2" << endl;
     cout << "4. Salir" << endl;
+    cin>>op;
     switch (op) {
     case 0: {
       bool swap = false;
@@ -124,6 +125,7 @@ int ArrayA::search(char code[]) {
 }
 
 void ArrayA::display() {
+  if(size<0){
   for (int i = 0; i < size; i++) {
     cout << "Codigo: " << array[i].code << endl;
     cout << "Nombre: " << array[i].name << endl;
@@ -132,13 +134,23 @@ void ArrayA::display() {
     cout << "Promedio: " << array[i].prom << endl;
     cout << "------------------------------------" << endl;
   }
+  }
+  else{
+    cout<<"El arreglo esta vacio"<<endl;
+  }
+
 }
 
 void ArrayA::display(int pos) {
-  cout << "Codigo: " << array[pos].code << endl;
-  cout << "Nombre: " << array[pos].name << endl;
-  cout << "Nota 1: " << array[pos].n1 << endl;
-  cout << "Nota 2: " << array[pos].n2 << endl;
-  cout << "Promedio: " << array[pos].prom << endl;
-  cout << "------------------------------------" << endl;
+  if(size<0){
+    cout << "Codigo: " << array[pos].code << endl;
+    cout << "Nombre: " << array[pos].name << endl;
+    cout << "Nota 1: " << array[pos].n1 << endl;
+    cout << "Nota 2: " << array[pos].n2 << endl;
+    cout << "Promedio: " << array[pos].prom << endl;
+    cout << "------------------------------------" << endl;
+  }
+  else {
+    cout<<"El arreglo esta vacio"<<endl;
+  }
 }

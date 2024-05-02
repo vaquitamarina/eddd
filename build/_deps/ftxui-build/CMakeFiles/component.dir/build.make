@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = "C:/Program Files/CMake/bin/cmake.exe"
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vaquita/dev/edd/arrayAlumnos
+CMAKE_SOURCE_DIR = C:/Users/pca/eddd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vaquita/dev/edd/arrayAlumnos/build
+CMAKE_BINARY_DIR = C:/Users/pca/eddd/build
 
 # Include any dependencies generated for this target.
 include _deps/ftxui-build/CMakeFiles/component.dir/depend.make
@@ -69,411 +69,435 @@ include _deps/ftxui-build/CMakeFiles/component.dir/progress.make
 # Include the compile flags for this target's objects.
 include _deps/ftxui-build/CMakeFiles/component.dir/flags.make
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: _deps/ftxui-src/src/ftxui/component/animation.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/animation.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj: _deps/ftxui-src/src/ftxui/component/animation.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/animation.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/animation.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/animation.cpp > CMakeFiles/component.dir/src/ftxui/component/animation.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/animation.cpp > CMakeFiles/component.dir/src/ftxui/component/animation.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/animation.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/animation.cpp -o CMakeFiles/component.dir/src/ftxui/component/animation.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/animation.cpp -o CMakeFiles/component.dir/src/ftxui/component/animation.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o: _deps/ftxui-src/src/ftxui/component/button.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/button.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/button.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/button.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj: _deps/ftxui-src/src/ftxui/component/button.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/button.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/button.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/button.cpp > CMakeFiles/component.dir/src/ftxui/component/button.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/button.cpp > CMakeFiles/component.dir/src/ftxui/component/button.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/button.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/button.cpp -o CMakeFiles/component.dir/src/ftxui/component/button.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/button.cpp -o CMakeFiles/component.dir/src/ftxui/component/button.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: _deps/ftxui-src/src/ftxui/component/catch_event.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/catch_event.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj: _deps/ftxui-src/src/ftxui/component/catch_event.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/catch_event.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/catch_event.cpp > CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/catch_event.cpp > CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/catch_event.cpp -o CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/catch_event.cpp -o CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o: _deps/ftxui-src/src/ftxui/component/checkbox.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/checkbox.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj: _deps/ftxui-src/src/ftxui/component/checkbox.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/checkbox.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/checkbox.cpp > CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/checkbox.cpp > CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/checkbox.cpp -o CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/checkbox.cpp -o CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o: _deps/ftxui-src/src/ftxui/component/collapsible.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/collapsible.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj: _deps/ftxui-src/src/ftxui/component/collapsible.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/collapsible.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/collapsible.cpp > CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/collapsible.cpp > CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/collapsible.cpp -o CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/collapsible.cpp -o CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o: _deps/ftxui-src/src/ftxui/component/component.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/component.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/component.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/component.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj: _deps/ftxui-src/src/ftxui/component/component.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/component.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/component.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/component.cpp > CMakeFiles/component.dir/src/ftxui/component/component.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/component.cpp > CMakeFiles/component.dir/src/ftxui/component/component.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/component.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/component.cpp -o CMakeFiles/component.dir/src/ftxui/component/component.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/component.cpp -o CMakeFiles/component.dir/src/ftxui/component/component.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o: _deps/ftxui-src/src/ftxui/component/component_options.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/component_options.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj: _deps/ftxui-src/src/ftxui/component/component_options.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/component_options.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/component_options.cpp > CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/component_options.cpp > CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/component_options.cpp -o CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/component_options.cpp -o CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o: _deps/ftxui-src/src/ftxui/component/container.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/container.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/container.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/container.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj: _deps/ftxui-src/src/ftxui/component/container.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/container.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/container.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/container.cpp > CMakeFiles/component.dir/src/ftxui/component/container.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/container.cpp > CMakeFiles/component.dir/src/ftxui/component/container.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/container.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/container.cpp -o CMakeFiles/component.dir/src/ftxui/component/container.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/container.cpp -o CMakeFiles/component.dir/src/ftxui/component/container.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o: _deps/ftxui-src/src/ftxui/component/dropdown.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/dropdown.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj: _deps/ftxui-src/src/ftxui/component/dropdown.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/dropdown.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/dropdown.cpp > CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/dropdown.cpp > CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/dropdown.cpp -o CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/dropdown.cpp -o CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: _deps/ftxui-src/src/ftxui/component/event.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/event.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/event.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/event.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj: _deps/ftxui-src/src/ftxui/component/event.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/event.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/event.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/event.cpp > CMakeFiles/component.dir/src/ftxui/component/event.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/event.cpp > CMakeFiles/component.dir/src/ftxui/component/event.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/event.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/event.cpp -o CMakeFiles/component.dir/src/ftxui/component/event.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/event.cpp -o CMakeFiles/component.dir/src/ftxui/component/event.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o: _deps/ftxui-src/src/ftxui/component/hoverable.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/hoverable.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj: _deps/ftxui-src/src/ftxui/component/hoverable.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/hoverable.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/hoverable.cpp > CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/hoverable.cpp > CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/hoverable.cpp -o CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/hoverable.cpp -o CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o: _deps/ftxui-src/src/ftxui/component/input.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/input.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/input.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/input.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj: _deps/ftxui-src/src/ftxui/component/input.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/input.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/input.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/input.cpp > CMakeFiles/component.dir/src/ftxui/component/input.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/input.cpp > CMakeFiles/component.dir/src/ftxui/component/input.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/input.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/input.cpp -o CMakeFiles/component.dir/src/ftxui/component/input.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/input.cpp -o CMakeFiles/component.dir/src/ftxui/component/input.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o: _deps/ftxui-src/src/ftxui/component/loop.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/loop.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj: _deps/ftxui-src/src/ftxui/component/loop.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/loop.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/loop.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/loop.cpp > CMakeFiles/component.dir/src/ftxui/component/loop.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/loop.cpp > CMakeFiles/component.dir/src/ftxui/component/loop.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/loop.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/loop.cpp -o CMakeFiles/component.dir/src/ftxui/component/loop.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/loop.cpp -o CMakeFiles/component.dir/src/ftxui/component/loop.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o: _deps/ftxui-src/src/ftxui/component/maybe.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/maybe.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj: _deps/ftxui-src/src/ftxui/component/maybe.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/maybe.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/maybe.cpp > CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/maybe.cpp > CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/maybe.cpp -o CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/maybe.cpp -o CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: _deps/ftxui-src/src/ftxui/component/menu.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/menu.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj: _deps/ftxui-src/src/ftxui/component/menu.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/menu.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/menu.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/menu.cpp > CMakeFiles/component.dir/src/ftxui/component/menu.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/menu.cpp > CMakeFiles/component.dir/src/ftxui/component/menu.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/menu.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/menu.cpp -o CMakeFiles/component.dir/src/ftxui/component/menu.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/menu.cpp -o CMakeFiles/component.dir/src/ftxui/component/menu.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o: _deps/ftxui-src/src/ftxui/component/modal.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/modal.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj: _deps/ftxui-src/src/ftxui/component/modal.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/modal.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/modal.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/modal.cpp > CMakeFiles/component.dir/src/ftxui/component/modal.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/modal.cpp > CMakeFiles/component.dir/src/ftxui/component/modal.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/modal.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/modal.cpp -o CMakeFiles/component.dir/src/ftxui/component/modal.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/modal.cpp -o CMakeFiles/component.dir/src/ftxui/component/modal.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o: _deps/ftxui-src/src/ftxui/component/radiobox.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/radiobox.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj: _deps/ftxui-src/src/ftxui/component/radiobox.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/radiobox.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/radiobox.cpp > CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/radiobox.cpp > CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/radiobox.cpp -o CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/radiobox.cpp -o CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o: _deps/ftxui-src/src/ftxui/component/renderer.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/renderer.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj: _deps/ftxui-src/src/ftxui/component/renderer.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/renderer.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/renderer.cpp > CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/renderer.cpp > CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/renderer.cpp -o CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/renderer.cpp -o CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o: _deps/ftxui-src/src/ftxui/component/resizable_split.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj: _deps/ftxui-src/src/ftxui/component/resizable_split.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp > CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp > CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp -o CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp -o CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o: _deps/ftxui-src/src/ftxui/component/screen_interactive.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj: _deps/ftxui-src/src/ftxui/component/screen_interactive.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp > CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp > CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp -o CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp -o CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o: _deps/ftxui-src/src/ftxui/component/slider.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/slider.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj: _deps/ftxui-src/src/ftxui/component/slider.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/slider.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/slider.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/slider.cpp > CMakeFiles/component.dir/src/ftxui/component/slider.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/slider.cpp > CMakeFiles/component.dir/src/ftxui/component/slider.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/slider.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/slider.cpp -o CMakeFiles/component.dir/src/ftxui/component/slider.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/slider.cpp -o CMakeFiles/component.dir/src/ftxui/component/slider.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: _deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj: _deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp > CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp > CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp -o CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp -o CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o: _deps/ftxui-src/src/ftxui/component/util.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/util.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/util.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/util.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj: _deps/ftxui-src/src/ftxui/component/util.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/util.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/util.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/util.cpp > CMakeFiles/component.dir/src/ftxui/component/util.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/util.cpp > CMakeFiles/component.dir/src/ftxui/component/util.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/util.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/util.cpp -o CMakeFiles/component.dir/src/ftxui/component/util.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/util.cpp -o CMakeFiles/component.dir/src/ftxui/component/util.cpp.s
 
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o: _deps/ftxui-src/src/ftxui/component/window.cpp
-_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o -MF CMakeFiles/component.dir/src/ftxui/component/window.cpp.o.d -o CMakeFiles/component.dir/src/ftxui/component/window.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/window.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/flags.make
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/includes_CXX.rsp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj: _deps/ftxui-src/src/ftxui/component/window.cpp
+_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj: _deps/ftxui-build/CMakeFiles/component.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj -MF CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj.d -o CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj -c C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/window.cpp
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/component.dir/src/ftxui/component/window.cpp.i"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/window.cpp > CMakeFiles/component.dir/src/ftxui/component/window.cpp.i
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/window.cpp > CMakeFiles/component.dir/src/ftxui/component/window.cpp.i
 
 _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/component.dir/src/ftxui/component/window.cpp.s"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && /sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src/src/ftxui/component/window.cpp -o CMakeFiles/component.dir/src/ftxui/component/window.cpp.s
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/build/_deps/ftxui-src/src/ftxui/component/window.cpp -o CMakeFiles/component.dir/src/ftxui/component/window.cpp.s
 
 # Object files for target component
 component_OBJECTS = \
-"CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/button.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/component.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/container.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/event.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/input.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/util.cpp.o" \
-"CMakeFiles/component.dir/src/ftxui/component/window.cpp.o"
+"CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj" \
+"CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj"
 
 # External object files for target component
 component_EXTERNAL_OBJECTS =
 
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o
-_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.o
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj
+_deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj
 _deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/build.make
 _deps/ftxui-build/libftxui-component.a: _deps/ftxui-build/CMakeFiles/component.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library libftxui-component.a"
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && $(CMAKE_COMMAND) -P CMakeFiles/component.dir/cmake_clean_target.cmake
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/component.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library libftxui-component.a"
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && $(CMAKE_COMMAND) -P CMakeFiles/component.dir/cmake_clean_target.cmake
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/component.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/ftxui-build/CMakeFiles/component.dir/build: _deps/ftxui-build/libftxui-component.a
 .PHONY : _deps/ftxui-build/CMakeFiles/component.dir/build
 
 _deps/ftxui-build/CMakeFiles/component.dir/clean:
-	cd /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build && $(CMAKE_COMMAND) -P CMakeFiles/component.dir/cmake_clean.cmake
+	cd C:/Users/pca/eddd/build/_deps/ftxui-build && $(CMAKE_COMMAND) -P CMakeFiles/component.dir/cmake_clean.cmake
 .PHONY : _deps/ftxui-build/CMakeFiles/component.dir/clean
 
 _deps/ftxui-build/CMakeFiles/component.dir/depend:
-	cd /home/vaquita/dev/edd/arrayAlumnos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vaquita/dev/edd/arrayAlumnos /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-src /home/vaquita/dev/edd/arrayAlumnos/build /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build /home/vaquita/dev/edd/arrayAlumnos/build/_deps/ftxui-build/CMakeFiles/component.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/pca/eddd C:/Users/pca/eddd/build/_deps/ftxui-src C:/Users/pca/eddd/build C:/Users/pca/eddd/build/_deps/ftxui-build C:/Users/pca/eddd/build/_deps/ftxui-build/CMakeFiles/component.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/ftxui-build/CMakeFiles/component.dir/depend
 

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = "C:/Program Files/CMake/bin/cmake.exe"
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vaquita/dev/edd/arrayAlumnos
+CMAKE_SOURCE_DIR = C:/Users/pca/eddd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vaquita/dev/edd/arrayAlumnos/build
+CMAKE_BINARY_DIR = C:/Users/pca/eddd/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -69,40 +69,44 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/main.cpp.o: /home/vaquita/dev/edd/arrayAlumnos/src/main.cpp
-CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/vaquita/dev/edd/arrayAlumnos/src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/pca/eddd/src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
+	C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.obj -MF CMakeFiles/main.dir/src/main.cpp.obj.d -o CMakeFiles/main.dir/src/main.cpp.obj -c C:/Users/pca/eddd/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vaquita/dev/edd/arrayAlumnos/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/pca/eddd/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vaquita/dev/edd/arrayAlumnos/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	C:/Users/pca/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/pca/eddd/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/src/main.cpp.o"
+"CMakeFiles/main.dir/src/main.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/src/main.cpp.o
-main: CMakeFiles/main.dir/build.make
-main: _deps/ftxui-build/libftxui-screen.a
-main: _deps/ftxui-build/libftxui-dom.a
-main: _deps/ftxui-build/libftxui-component.a
-main: _deps/ftxui-build/libftxui-dom.a
-main: _deps/ftxui-build/libftxui-screen.a
-main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
+main.exe: CMakeFiles/main.dir/src/main.cpp.obj
+main.exe: CMakeFiles/main.dir/build.make
+main.exe: _deps/ftxui-build/libftxui-screen.a
+main.exe: _deps/ftxui-build/libftxui-dom.a
+main.exe: _deps/ftxui-build/libftxui-component.a
+main.exe: _deps/ftxui-build/libftxui-dom.a
+main.exe: _deps/ftxui-build/libftxui-screen.a
+main.exe: CMakeFiles/main.dir/linkLibs.rsp
+main.exe: CMakeFiles/main.dir/objects1.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/pca/eddd/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
+	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/main.dir/objects.a
+	C:/Users/pca/mingw64/bin/ar.exe qc CMakeFiles/main.dir/objects.a @CMakeFiles/main.dir/objects1.rsp
+	C:/Users/pca/mingw64/bin/c++.exe -Wl,--whole-archive CMakeFiles/main.dir/objects.a -Wl,--no-whole-archive -o main.exe -Wl,--out-implib,libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/main.dir/linkLibs.rsp
 
 # Rule to build all files generated by this target.
-CMakeFiles/main.dir/build: main
+CMakeFiles/main.dir/build: main.exe
 .PHONY : CMakeFiles/main.dir/build
 
 CMakeFiles/main.dir/clean:
@@ -110,6 +114,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/vaquita/dev/edd/arrayAlumnos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vaquita/dev/edd/arrayAlumnos /home/vaquita/dev/edd/arrayAlumnos /home/vaquita/dev/edd/arrayAlumnos/build /home/vaquita/dev/edd/arrayAlumnos/build /home/vaquita/dev/edd/arrayAlumnos/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/pca/eddd C:/Users/pca/eddd C:/Users/pca/eddd/build C:/Users/pca/eddd/build C:/Users/pca/eddd/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 
